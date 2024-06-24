@@ -1,0 +1,122 @@
+h3{ color: #ffffff;
+    
+}
+footer{
+    background-color: #616fe9;
+}
+
+
+section{
+    
+        background-color: #000000be;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(233, 101, 250);
+}
+
+img{
+height:250px ;
+width: 250px;
+border-radius: 50%;
+transition:0.8s ;
+border:5px solid ;
+border-color: rgb(187,84,201);
+
+}
+
+img:hover{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transform: scale(1.0);
+}
+
+body {
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 68, 68)
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #8b4d91;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 1;
+    
+}
+h1, h2, h4{
+    color: #fffefe;
+}
+p {
+    color: #000000;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 5px;
+}
+
+.progresso-html {
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(99, 99, 99); 
+    display: flex;
+}
+.progresso-html::before {
+    content: "";
+    width: 50%;
+    background-color: rgb(187, 84, 201);
+}
+
+.progresso-css {
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(99, 99, 99); 
+    display: flex;
+}
+.progresso-css::before {
+    content: "";
+    width: 70%;
+    background-color: rgb(187,84,201);
+}
+
+.progresso-js {
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(99, 99, 99); 
+    display: flex;
+}
+.progresso-js::before {
+    content: "";
+    background-color: rgb(187,84,201);
+    width:5% ;
+}
+.corr{
+    background-color: #46a74b;
+}
+
+
+
+button[type="submit"] {
+    background-color:rgba(240, 142, 235, 0.1);
+    color: rgb(132, 115, 179) ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+ 
+button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+
